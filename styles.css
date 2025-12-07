@@ -71,11 +71,20 @@ span {
 .social-link a {
     text-decoration: none;
     color: hsl(0, 0%, 100%);
+    font-weight: bold;
 }
 
 .social-link {
     padding: 15px 0;
     background-color: hsl(0, 0%, 20%);
+}
+
+.social-link:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.social-link:hover a {
+    color: hsl(0, 0%, 8%);
 }
 
 /* MEDIA QUERIES */
